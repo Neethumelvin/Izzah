@@ -1,13 +1,12 @@
 package Employee.Salary;
 
 public class Salary extends HraAndPf{
+	float total;
 	public void totalsalary()
 	{
 		total=basicpay+hra-pf-deduction+bonus;
-		System.out.println(+total);
-		
+		System.out.println(+total);	
 	}
-	
 	public void display()
 	{
 		System.out.println("\n*....Salary Slip.....*");

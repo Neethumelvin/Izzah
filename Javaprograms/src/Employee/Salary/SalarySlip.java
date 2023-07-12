@@ -5,7 +5,7 @@ public class SalarySlip {
 	Scanner read=new Scanner(System.in);
 	String name; 
 	int empid;
-	float basicpay,deduction,bonus,hra,pf,total;
+	float basicpay,deduction,bonus;
 	public void Salary()
 	{
 	System.out.println("Enter the Employee name: ");
