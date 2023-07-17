@@ -1,6 +1,7 @@
 package Employee.Salary;
 
 public class HraAndPf extends SalarySlip  {
+	float hra, pf;
 	public void hraandpf()
 	{
 		hra=basicpay*5/100;

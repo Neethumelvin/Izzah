@@ -27,7 +27,8 @@ public static void main(String[] args) {
 	case 2:
 		Contractor cont=new Contractor();
 		cont.Contractoremp("Melvin", 500, 6);
-		 System.out.println("Total Salary:"+cont.calculateSalary());
+		int xyz=cont.calculateSalary();
+		System.out.println("Total Salary:"+xyz);
 	
 }
 }}

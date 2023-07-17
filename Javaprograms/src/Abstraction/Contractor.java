@@ -7,11 +7,13 @@ public class Contractor extends SuperclassEmployee {
 	    	super.name=name;
 	    	super.paymentPerHour=paymentPerHour;
 	        this.workingHours = workingHours;
+	        System.out.println("Working hours of contractor:"+workingHours);
 	    }
 	 
 	    public int calculateSalary() {
-	    	System.out.println("Working hours of contractor:"+workingHours);
-	        return paymentPerHour * workingHours;
+	    	int abc=paymentPerHour * workingHours;
+	        return abc;
+	        
 	    }
 	}
 

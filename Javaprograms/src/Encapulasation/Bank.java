@@ -3,6 +3,7 @@ package Encapulasation;
 public class Bank {
 private String name;
 private float balance;
+
 public String getName() {
 	return name;
 }
