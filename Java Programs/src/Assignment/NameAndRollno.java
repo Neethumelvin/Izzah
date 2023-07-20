@@ -1,21 +1,18 @@
 package Assignment;
 
 public class NameAndRollno {
-		String name;
-		int rollNo;	
-		Address add;
-
-	public NameAndRollno(String name, int rollNo,Address add)
-	{
-		this.name=name;
-		this.rollNo=rollNo;
-		this.add=add;
-	}
-	public void display()
-	{  
-		System.out.print(name); 
-		System.out.println("("+rollNo+")");
-		System.out.println(add.housename+"\n"+add.city+"\n" +add.state+"\n"+add.country+"\n"+add.pincde);  
-	} 
-	
+		private String name;
+		private int rollNo;	
+	public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public int getRollNo() {
+			return rollNo;
+		}
+		public void setRollNo(int rollNo) {
+			this.rollNo = rollNo;
+		}	
 }
